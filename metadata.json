@@ -1,0 +1,6 @@
+{
+  "name": "Mahlzeiten bei verringertem Appetit",
+  "description": "Praktischer PDF-Leitfaden für entspanntes und nährstoffreiches Essen bei wenig Appetit.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

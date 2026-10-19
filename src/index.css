@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #F8F6F0;
+  }
+  
+  h1, h2, .font-serif-title {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+/* Vibrant and organic ambient canvas background */
+.site-bg-ambient {
+  background: 
+    radial-gradient(circle at 10% 8%, rgba(193, 219, 186, 0.42) 0%, transparent 42%),
+    radial-gradient(circle at 90% 16%, rgba(238, 226, 196, 0.5) 0%, transparent 45%),
+    radial-gradient(circle at 18% 45%, rgba(206, 227, 201, 0.38) 0%, transparent 40%),
+    radial-gradient(circle at 82% 58%, rgba(228, 237, 223, 0.55) 0%, transparent 45%),
+    radial-gradient(circle at 25% 82%, rgba(235, 222, 195, 0.45) 0%, transparent 48%),
+    radial-gradient(circle at 85% 92%, rgba(198, 223, 192, 0.4) 0%, transparent 42%),
+    linear-gradient(180deg, #F8F6F0 0%, #EEF4EB 28%, #F7F3E9 58%, #EBF2EA 85%, #F5F1E8 100%);
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1ede4;
+}
+::-webkit-scrollbar-thumb {
+  background: #c7beaf;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9f9483;
+}
+
